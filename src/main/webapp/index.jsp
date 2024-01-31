@@ -2,12 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Simple Dictionary</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1>Vietnamese Dictionary
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<form action="dictionary.jsp" method = "post">
+    <input type="text" name="search"  placeholder="EnterYourWord: ">
+    <input type="submit" id="submit" value="Search">
+</form>
 </body>
 </html>
